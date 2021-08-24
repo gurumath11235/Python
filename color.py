@@ -9,13 +9,7 @@ pygame.display.set_caption('color')
 
 # スペクトル用RGB値
 N = 192
-group0 = []
-group1 = []
-group2 = []
-group3 = []
-group4 = []
-group5 = []
-GR = [group0, group1, group2, group3, group4, group5]
+GR = [ [], [], [], [], [], [] ]
 
 for i in range(N):
     for j in range(6):
